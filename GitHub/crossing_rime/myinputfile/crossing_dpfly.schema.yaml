@@ -4,7 +4,7 @@
 schema:
   schema_id: crossing_dpfly
   name: 小鶴雙拼pro
-  version: "0.18.1"
+  version: "0.18.2"
   author:
     - double pinyin layout by 鶴
     - Rime schema by CrossingMay <crossingmay@gmail.com>
@@ -15,6 +15,7 @@ schema:
     - stroke
     - chinese_contain_english       # 只有 translator/dictionary: 指定的字典会被编译
     - emoji                         # 因此需要设置输入方案的依赖关系，保证词典可用
+    - kaomoji
 switches:
   - name: ascii_mode
     reset: 0
@@ -49,6 +50,7 @@ engine:
     - table_translator@chinese_contain_english      # 添加码表式副翻译器
     - table_translator@custom_phrase                # 同上
     - table_translator@emoji                        # 同上
+    - table_translator@kaomoji                      # 同上
   filters:
     - simplifier
     - uniquifier
@@ -112,6 +114,9 @@ custom_phrase:
 # 可直接输入 Emoji 表情编码来输入表情
 emoji:
   dictionary: emoji
+
+kaomoji:
+  dictionary: kaomoji
 
 reverse_lookup:
   dictionary: stroke
