@@ -1,0 +1,76 @@
+# chinese_contain_english.dict.yaml
+# Rime dictionary
+# encoding: utf-8
+#
+# 中英文混输的时候有用
+
+---
+name: chinese_contain_english
+version: "2016.1.3"
+sort: by_weight
+use_preset_vocabulary: false
+...
+
+Rime	rime
+Android	android
+Apple	apple
+Mac	mac
+Windows	windows
+GitHub	github
+2B	erb
+AA制	aaz
+AMD	amd
+ATI	ati
+ATM機	atmj
+Arduino	arduino
+A股	agu
+B淋巴細胞	blinba
+B細胞	bxibao
+B股	bgu
+B超	bchao
+C語言	cyuyan
+DNA	dna
+DVD	dvd
+Google	google
+IP	ip
+IPv6	ipvliu
+IPv4	ipvsi
+IP地址	ipdz
+Linux	linux
+MIPS	mips
+MP3	mpsan
+MP4	mpsi
+Mac	mac
+Nvidia	nvidia
+POS機	posji
+QQ	qq
+QQ會員	qqhy
+QQ空間	qqkongjian
+QQ郵箱	qqyouxiang
+SIM卡	simka
+T型臺	txingtai
+T恤	txu
+T淋巴細胞	tlinba
+T細胞	txibao
+UIM卡	uimka
+USB	usb
+USIM卡	usimk
+U形管	uxingguan
+U盤	upan
+U盾	udun
+Wi-Fi	wifi
+WiFi	wifi
+Windows	windows
+Xeon	xeon
+X光	xguang
+X刀	xdao
+X射線	xshexian
+X染色體	xranseti
+Y染色體	yranseti
+iMessage	imessage
+iOS	ios
+iPad	ipad
+iPhone	iphone
+iPod	ipod
+iWatch	iwatch
+# ...
