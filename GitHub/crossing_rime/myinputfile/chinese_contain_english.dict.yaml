@@ -10,7 +10,18 @@ version: "2016.1.3"
 sort: by_weight
 use_preset_vocabulary: false
 ...
-
+⌘	cmd
+⏎	return
+⏏	eject
+⇪	cap
+⇧	shift
+⌥	opt
+⌃	ctrl
+⌫	del
+℃	degreec
+℉	degreef
+✓	right
+✗	wrong
 Rime	rime
 Android	android
 Apple	apple
